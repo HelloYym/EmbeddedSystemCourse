@@ -1,0 +1,210 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+Target (Flash), 0x0004 // Tools: 'ARM-ADS'
+
+Group (APP)
+Group (BSP)
+Group (FWL)
+Group (uC-CPU)
+Group (uC-OS-II/Source)
+Group (uC-OS-II/Port)
+Group (uC-LIB)
+Group (uC-Probe/Plugins/uCOS-II)
+Group (uC-Probe/Communication)
+Group (uC-Probe/Communication/RS-232)
+Group (Scatter)
+
+File 1,1,<.\app.c><app.c>
+File 1,5,<.\app_cfg.h><app_cfg.h>
+File 1,5,<.\includes.h><includes.h>
+File 1,5,<.\os_cfg.h><os_cfg.h>
+File 1,2,<.\vectors.s><vectors.s>
+File 1,5,<.\probe_com_cfg.h><probe_com_cfg.h>
+File 1,5,<.\stm32f10x_conf.h><stm32f10x_conf.h>
+File 2,1,<..\BSP\bsp.c><bsp.c>
+File 2,5,<..\BSP\bsp.h><bsp.h>
+File 2,5,<..\BSP\lcd.h><lcd.h>
+File 2,5,<..\BSP\fonts.h><fonts.h>
+File 2,1,<..\BSP\lcd.c><lcd.c>
+File 2,2,<..\BSP\init.s><init.s>
+File 2,1,<..\BSP\bsp_int.c><bsp_int.c>
+File 2,1,<..\BSP\bsp_periph.c><bsp_periph.c>
+File 3,1,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_systick.c><stm32f10x_systick.c>
+File 3,1,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_i2c.c><stm32f10x_i2c.c>
+File 3,1,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_spi.c><stm32f10x_spi.c>
+File 3,1,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_rtc.c><stm32f10x_rtc.c>
+File 3,5,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_gpio.h><stm32f10x_gpio.h>
+File 3,5,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_lib.h><stm32f10x_lib.h>
+File 3,5,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_flash.h><stm32f10x_flash.h>
+File 3,5,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_i2c.h><stm32f10x_i2c.h>
+File 3,5,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_map.h><stm32f10x_map.h>
+File 3,5,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_pwr.h><stm32f10x_pwr.h>
+File 3,5,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_rcc.h><stm32f10x_rcc.h>
+File 3,5,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_rtc.h><stm32f10x_rtc.h>
+File 3,5,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_spi.h><stm32f10x_spi.h>
+File 3,5,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_systick.h><stm32f10x_systick.h>
+File 3,5,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_tim.h><stm32f10x_tim.h>
+File 3,5,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_type.h><stm32f10x_type.h>
+File 3,5,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_usart.h><stm32f10x_usart.h>
+File 3,1,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_rcc.c><stm32f10x_rcc.c>
+File 3,5,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_adc.h><stm32f10x_adc.h>
+File 3,5,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_bkp.h><stm32f10x_bkp.h>
+File 3,1,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_adc.c><stm32f10x_adc.c>
+File 3,1,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_bkp.c><stm32f10x_bkp.c>
+File 3,1,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_flash.c><stm32f10x_flash.c>
+File 3,1,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_gpio.c><stm32f10x_gpio.c>
+File 3,1,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_usart.c><stm32f10x_usart.c>
+File 3,1,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_lib.c><stm32f10x_lib.c>
+File 3,1,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_tim.c><stm32f10x_tim.c>
+File 3,5,<..\..\..\..\..\CPU\ST\STM32\inc\cortexm3_macro.h><cortexm3_macro.h>
+File 4,5,<..\..\..\..\..\uC-CPU\cpu_def.h><cpu_def.h>
+File 4,5,<..\..\..\..\..\uC-CPU\ARM-Cortex-M3\RealView\cpu.h><cpu.h>
+File 4,2,<..\..\..\..\..\uC-CPU\ARM-Cortex-M3\RealView\cpu_a.asm><cpu_a.asm>
+File 4,1,<..\..\..\..\..\uC-CPU\ARM-Cortex-M3\RealView\cpu_c.c><cpu_c.c>
+File 5,1,<..\..\..\..\..\uCOS-II\Source\os_core.c><os_core.c>
+File 5,1,<..\..\..\..\..\uCOS-II\Source\os_flag.c><os_flag.c>
+File 5,1,<..\..\..\..\..\uCOS-II\Source\os_mbox.c><os_mbox.c>
+File 5,1,<..\..\..\..\..\uCOS-II\Source\os_mem.c><os_mem.c>
+File 5,1,<..\..\..\..\..\uCOS-II\Source\os_mutex.c><os_mutex.c>
+File 5,1,<..\..\..\..\..\uCOS-II\Source\os_q.c><os_q.c>
+File 5,1,<..\..\..\..\..\uCOS-II\Source\os_sem.c><os_sem.c>
+File 5,1,<..\..\..\..\..\uCOS-II\Source\os_task.c><os_task.c>
+File 5,1,<..\..\..\..\..\uCOS-II\Source\os_time.c><os_time.c>
+File 5,1,<..\..\..\..\..\uCOS-II\Source\os_tmr.c><os_tmr.c>
+File 6,5,<..\..\..\..\..\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h><os_cpu.h>
+File 6,2,<..\..\..\..\..\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu_a.asm><os_cpu_a.asm>
+File 6,1,<..\..\..\..\..\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu_c.c><os_cpu_c.c>
+File 6,1,<..\..\..\..\..\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView\os_dbg.c><os_dbg.c>
+File 7,5,<..\..\..\..\..\uC-LIB\lib_def.h><lib_def.h>
+File 7,1,<..\..\..\..\..\uC-LIB\lib_mem.c><lib_mem.c>
+File 7,5,<..\..\..\..\..\uC-LIB\lib_mem.h><lib_mem.h>
+File 7,1,<..\..\..\..\..\uC-LIB\lib_str.c><lib_str.c>
+File 7,5,<..\..\..\..\..\uC-LIB\lib_str.h><lib_str.h>
+File 7,2,<..\..\..\..\..\uC-LIB\Ports\ARM-Cortex-M3\RealView\lib_mem_a.asm><lib_mem_a.asm>
+File 8,5,<..\..\..\..\..\uC-Probe\Target\Plugins\uCOS-II\os_probe.h><os_probe.h>
+File 8,1,<..\..\..\..\..\uC-Probe\Target\Plugins\uCOS-II\os_probe.c><os_probe.c>
+File 9,1,<..\..\..\..\..\uC-Probe\Target\Communication\Generic\Source\probe_com.c><probe_com.c>
+File 9,5,<..\..\..\..\..\uC-Probe\Target\Communication\Generic\RS-232\Source\probe_rs232.h><probe_rs232.h>
+File 9,1,<..\..\..\..\..\uC-Probe\Target\Communication\Generic\OS\uCOS-II\probe_com_os.c><probe_com_os.c>
+File 10,1,<..\..\..\..\..\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STM32\probe_rs232c.c><probe_rs232c.c>
+File 10,5,<..\..\..\..\..\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STM32\probe_rs232c.h><probe_rs232c.h>
+File 10,1,<..\..\..\..\..\uC-Probe\Target\Communication\Generic\RS-232\OS\uCOS-II\probe_rs232_os.c><probe_rs232_os.c>
+File 10,1,<..\..\..\..\..\uC-Probe\Target\Communication\Generic\RS-232\Source\probe_rs232.c><probe_rs232.c>
+File 10,5,<..\..\..\..\..\uC-Probe\Target\Communication\Generic\Source\probe_com.h><probe_com.h>
+File 11,2,<..\BSP\STM32_Flash.scat><STM32_Flash.scat>
+File 11,2,<..\BSP\STM32_RAM.scat><STM32_RAM.scat>
+
+
+Options 1,0,0  // Target 'Flash'
+ Device (STM32F103VB)
+ Vendor (STMicroelectronics)
+ Cpu (IRAM(0x20000000-0x20004FFF) IROM(0x8000000-0x801FFFF) CLOCK(8000000) CPUTYPE("Cortex-M3"))
+ FlashUt ()
+ StupF ("STARTUP\ST\STM32F10x.s" ("STM32 Startup Code"))
+ FlashDR (UL2CM3(-O14 -S0 -C0 -N00("ARM Cortex-M3") -D00(1BA00477) -L00(4) -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F10x_128 -FS08000000 -FL020000))
+ DevID (4223)
+ Rgf (stm32f10x_lib.h)
+ Mem ()
+ C ()
+ A ()
+ RL ()
+ OH ()
+ DBC_IFX ()
+ DBC_CMS ()
+ DBC_AMS ()
+ DBC_LMS ()
+ UseEnv=0
+ EnvBin ()
+ EnvInc ()
+ EnvLib ()
+ EnvReg (ÿST\STM32F10x\)
+ OrgReg (ÿST\STM32F10x\)
+ TgStat=16
+ OutDir (.\rvmdk\)
+ OutName (STM3210B-EVAL-OS-Probe)
+ GenApp=1
+ GenLib=0
+ GenHex=0
+ Debug=1
+ Browse=0
+ LstDir (.\rvmdk\)
+ HexSel=1
+ MG32K=0
+ TGMORE=0
+ RunUsr 0 0 <>
+ RunUsr 1 0 <>
+ BrunUsr 0 0 <>
+ BrunUsr 1 0 <>
+ CrunUsr 0 0 <>
+ CrunUsr 1 0 <>
+ SVCSID <>
+ GLFLAGS=1790
+ ADSFLGA { 243,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ACPUTYP ("Cortex-M3")
+ RVDEV ()
+ ADSTFLGA { 0,12,0,2,99,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0 }
+ OCMADSOCM { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ OCMADSIRAM { 0,0,0,0,32,0,80,0,0 }
+ OCMADSIROM { 1,0,0,0,8,0,0,2,0 }
+ OCMADSXRAM { 0,0,0,0,0,0,0,0,0 }
+ OCR_RVCT { 1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,8,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,80,0,0,0,0,0,0,0,0,0,0,0 }
+ RV_STAVEC ()
+ ADSCCFLG { 8,2,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSCMISC ()
+ ADSCDEFN ()
+ ADSCUDEF ()
+ ADSCINCD (.;..\BSP;..\..\..\..\..\uCOS-II\Ports\arm-cortex-m3\Generic\RealView;..\..\..\..\..\uCOS-II\Source;..\..\..\..\..\CPU\ST\STM32\inc;..\..\..\..\..\uC-CPU;..\..\..\..\..\uC-CPU\Arm-Cortex-M3\RealView;..\..\..\..\..\uC-LIB;..\..\..\..\..\uC-Probe\Target\Plugins\uCOS-II;..\..\..\..\..\uC-Probe\Target\Communication\Generic\Source;..\..\..\..\..\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STM32;..\..\..\..\..\uC-Probe\Target\Communication\Generic\RS-232\Source)
+ ADSASFLG { 65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSAMISC ()
+ ADSADEFN ()
+ ADSAUDEF ()
+ ADSAINCD ()
+ PropFld { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ IncBld=1
+ AlwaysBuild=0
+ GenAsm=0
+ AsmAsm=0
+ PublicsOnly=0
+ StopCode=3
+ CustArgs ()
+ LibMods ()
+ ADSLDFG { 16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSLDTA (0x00000000)
+ ADSLDDA (0x20000000)
+ ADSLDSC (..\BSP\STM32_Flash.scat)
+ ADSLDIB ()
+ ADSLDIC ()
+ ADSLDMC (--entry ResetHndlr)
+ ADSLDIF ()
+ ADSLDDW ()
+  OPTDL (SARMCM3.DLL)()(DARMSTM.DLL)(-pSTM32F103VB)(SARMCM3.DLL)()(TARMSTM.DLL)(-pSTM32F103VB)
+  OPTDBG 48126,1,()()()()()()()()()() (BIN\UL2CM3.DLL)()()()
+ FLASH1 { 9,0,0,0,1,0,0,0,1,16,0,0,0,0,0,0,0,0,0,0 }
+ FLASH2 (BIN\UL2CM3.DLL)
+ FLASH3 ("" ())
+ FLASH4 ()
+EndOpt
+
+Options 1,11,0  // Group 'Scatter'
+ PropFld { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ IncBld=0
+ AlwaysBuild=0
+ GenAsm=2
+ AsmAsm=2
+ PublicsOnly=2
+ StopCode=11
+ CustArgs ()
+ LibMods ()
+ ADSCCFLG { 2,84,85,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSCMISC ()
+ ADSCDEFN ()
+ ADSCUDEF ()
+ ADSCINCD ()
+ ADSASFLG { 170,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSAMISC ()
+ ADSADEFN ()
+ ADSAUDEF ()
+ ADSAINCD ()
+EndOpt
+

@@ -1,0 +1,1 @@
+z:\cubemx\lab5_ucos\output\startup_stm32f10x_md.o: RTE\Device\STM32F103C8\startup_stm32f10x_md.s

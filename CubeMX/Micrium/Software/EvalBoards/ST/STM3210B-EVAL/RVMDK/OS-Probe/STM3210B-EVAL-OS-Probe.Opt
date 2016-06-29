@@ -1,0 +1,127 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.s*; *.src; *.a*)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt; *.h; *.inc)
+ pExt (*.plm)
+ CppX (*.cpp)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (Flash), 0x0004 // Tools: 'ARM-ADS'
+GRPOPT 1,(APP),1,0,0
+GRPOPT 2,(BSP),1,0,0
+GRPOPT 3,(FWL),0,0,0
+GRPOPT 4,(uC-CPU),0,0,0
+GRPOPT 5,(uC-OS-II/Source),0,0,0
+GRPOPT 6,(uC-OS-II/Port),0,0,0
+GRPOPT 7,(uC-LIB),0,0,0
+GRPOPT 8,(uC-Probe/Plugins/uCOS-II),0,0,0
+GRPOPT 9,(uC-Probe/Communication),0,0,0
+GRPOPT 10,(uC-Probe/Communication/RS-232),0,0,0
+GRPOPT 11,(Scatter),0,0,0
+
+OPTFFF 1,1,1,855638016,0,449,449,0,<.\app.c><app.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,226,255,255,255,0,0,0,0,0,0,0,0,251,2,0,0,117,1,0,0 }
+OPTFFF 1,2,5,0,0,0,0,0,<.\app_cfg.h><app_cfg.h> 
+OPTFFF 1,3,5,0,0,0,0,0,<.\includes.h><includes.h> 
+OPTFFF 1,4,5,0,0,0,0,0,<.\os_cfg.h><os_cfg.h> 
+OPTFFF 1,5,2,67108864,0,0,0,0,<.\vectors.s><vectors.s> 
+OPTFFF 1,6,5,0,0,0,0,0,<.\probe_com_cfg.h><probe_com_cfg.h> 
+OPTFFF 1,7,5,0,0,0,0,0,<.\stm32f10x_conf.h><stm32f10x_conf.h> 
+OPTFFF 2,8,1,0,0,0,0,0,<..\BSP\bsp.c><bsp.c> 
+OPTFFF 2,9,5,0,0,0,0,0,<..\BSP\bsp.h><bsp.h> 
+OPTFFF 2,10,5,0,0,0,0,0,<..\BSP\lcd.h><lcd.h> 
+OPTFFF 2,11,5,0,0,0,0,0,<..\BSP\fonts.h><fonts.h> 
+OPTFFF 2,12,1,0,0,0,0,0,<..\BSP\lcd.c><lcd.c> 
+OPTFFF 2,13,2,2,0,33,53,0,<..\BSP\init.s><init.s> { 44,0,0,0,2,0,0,0,3,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,226,255,255,255,44,0,0,0,58,0,0,0,63,4,0,0,31,2,0,0 }
+OPTFFF 2,14,1,0,0,1,1,0,<..\BSP\bsp_int.c><bsp_int.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,226,255,255,255,22,0,0,0,29,0,0,0,41,4,0,0,2,2,0,0 }
+OPTFFF 2,15,1,0,0,0,0,0,<..\BSP\bsp_periph.c><bsp_periph.c> 
+OPTFFF 3,16,1,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_systick.c><stm32f10x_systick.c> 
+OPTFFF 3,17,1,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_i2c.c><stm32f10x_i2c.c> 
+OPTFFF 3,18,1,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_spi.c><stm32f10x_spi.c> 
+OPTFFF 3,19,1,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_rtc.c><stm32f10x_rtc.c> 
+OPTFFF 3,20,5,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_gpio.h><stm32f10x_gpio.h> 
+OPTFFF 3,21,5,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_lib.h><stm32f10x_lib.h> 
+OPTFFF 3,22,5,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_flash.h><stm32f10x_flash.h> 
+OPTFFF 3,23,5,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_i2c.h><stm32f10x_i2c.h> 
+OPTFFF 3,24,5,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_map.h><stm32f10x_map.h> 
+OPTFFF 3,25,5,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_pwr.h><stm32f10x_pwr.h> 
+OPTFFF 3,26,5,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_rcc.h><stm32f10x_rcc.h> 
+OPTFFF 3,27,5,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_rtc.h><stm32f10x_rtc.h> 
+OPTFFF 3,28,5,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_spi.h><stm32f10x_spi.h> 
+OPTFFF 3,29,5,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_systick.h><stm32f10x_systick.h> 
+OPTFFF 3,30,5,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_tim.h><stm32f10x_tim.h> 
+OPTFFF 3,31,5,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_type.h><stm32f10x_type.h> 
+OPTFFF 3,32,5,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_usart.h><stm32f10x_usart.h> 
+OPTFFF 3,33,1,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_rcc.c><stm32f10x_rcc.c> 
+OPTFFF 3,34,5,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_adc.h><stm32f10x_adc.h> 
+OPTFFF 3,35,5,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\inc\stm32f10x_bkp.h><stm32f10x_bkp.h> 
+OPTFFF 3,36,1,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_adc.c><stm32f10x_adc.c> 
+OPTFFF 3,37,1,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_bkp.c><stm32f10x_bkp.c> 
+OPTFFF 3,38,1,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_flash.c><stm32f10x_flash.c> 
+OPTFFF 3,39,1,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_gpio.c><stm32f10x_gpio.c> 
+OPTFFF 3,40,1,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_usart.c><stm32f10x_usart.c> 
+OPTFFF 3,41,1,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_lib.c><stm32f10x_lib.c> 
+OPTFFF 3,42,1,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\src\stm32f10x_tim.c><stm32f10x_tim.c> 
+OPTFFF 3,43,5,0,0,0,0,0,<..\..\..\..\..\CPU\ST\STM32\inc\cortexm3_macro.h><cortexm3_macro.h> 
+OPTFFF 4,44,5,0,0,0,0,0,<..\..\..\..\..\uC-CPU\cpu_def.h><cpu_def.h> 
+OPTFFF 4,45,5,0,0,0,0,0,<..\..\..\..\..\uC-CPU\ARM-Cortex-M3\RealView\cpu.h><cpu.h> 
+OPTFFF 4,46,2,0,0,0,0,0,<..\..\..\..\..\uC-CPU\ARM-Cortex-M3\RealView\cpu_a.asm><cpu_a.asm> 
+OPTFFF 4,47,1,0,0,0,0,0,<..\..\..\..\..\uC-CPU\ARM-Cortex-M3\RealView\cpu_c.c><cpu_c.c> 
+OPTFFF 5,48,1,0,0,0,0,0,<..\..\..\..\..\uCOS-II\Source\os_core.c><os_core.c> 
+OPTFFF 5,49,1,0,0,0,0,0,<..\..\..\..\..\uCOS-II\Source\os_flag.c><os_flag.c> 
+OPTFFF 5,50,1,0,0,0,0,0,<..\..\..\..\..\uCOS-II\Source\os_mbox.c><os_mbox.c> 
+OPTFFF 5,51,1,0,0,0,0,0,<..\..\..\..\..\uCOS-II\Source\os_mem.c><os_mem.c> 
+OPTFFF 5,52,1,0,0,0,0,0,<..\..\..\..\..\uCOS-II\Source\os_mutex.c><os_mutex.c> 
+OPTFFF 5,53,1,0,0,0,0,0,<..\..\..\..\..\uCOS-II\Source\os_q.c><os_q.c> 
+OPTFFF 5,54,1,0,0,0,0,0,<..\..\..\..\..\uCOS-II\Source\os_sem.c><os_sem.c> 
+OPTFFF 5,55,1,0,0,0,0,0,<..\..\..\..\..\uCOS-II\Source\os_task.c><os_task.c> 
+OPTFFF 5,56,1,0,0,0,0,0,<..\..\..\..\..\uCOS-II\Source\os_time.c><os_time.c> 
+OPTFFF 5,57,1,0,0,0,0,0,<..\..\..\..\..\uCOS-II\Source\os_tmr.c><os_tmr.c> 
+OPTFFF 6,58,5,0,0,0,0,0,<..\..\..\..\..\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h><os_cpu.h> 
+OPTFFF 6,59,2,0,0,0,0,0,<..\..\..\..\..\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu_a.asm><os_cpu_a.asm> 
+OPTFFF 6,60,1,0,0,0,0,0,<..\..\..\..\..\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu_c.c><os_cpu_c.c> 
+OPTFFF 6,61,1,0,0,0,0,0,<..\..\..\..\..\uCOS-II\Ports\ARM-Cortex-M3\Generic\RealView\os_dbg.c><os_dbg.c> 
+OPTFFF 7,62,5,0,0,0,0,0,<..\..\..\..\..\uC-LIB\lib_def.h><lib_def.h> 
+OPTFFF 7,63,1,0,0,0,0,0,<..\..\..\..\..\uC-LIB\lib_mem.c><lib_mem.c> 
+OPTFFF 7,64,5,0,0,0,0,0,<..\..\..\..\..\uC-LIB\lib_mem.h><lib_mem.h> 
+OPTFFF 7,65,1,0,0,0,0,0,<..\..\..\..\..\uC-LIB\lib_str.c><lib_str.c> 
+OPTFFF 7,66,5,0,0,0,0,0,<..\..\..\..\..\uC-LIB\lib_str.h><lib_str.h> 
+OPTFFF 7,67,2,0,0,0,0,0,<..\..\..\..\..\uC-LIB\Ports\ARM-Cortex-M3\RealView\lib_mem_a.asm><lib_mem_a.asm> 
+OPTFFF 8,68,5,0,0,0,0,0,<..\..\..\..\..\uC-Probe\Target\Plugins\uCOS-II\os_probe.h><os_probe.h> 
+OPTFFF 8,69,1,0,0,0,0,0,<..\..\..\..\..\uC-Probe\Target\Plugins\uCOS-II\os_probe.c><os_probe.c> 
+OPTFFF 9,70,1,0,0,0,0,0,<..\..\..\..\..\uC-Probe\Target\Communication\Generic\Source\probe_com.c><probe_com.c> 
+OPTFFF 9,71,5,0,0,0,0,0,<..\..\..\..\..\uC-Probe\Target\Communication\Generic\RS-232\Source\probe_rs232.h><probe_rs232.h> 
+OPTFFF 9,72,1,0,0,0,0,0,<..\..\..\..\..\uC-Probe\Target\Communication\Generic\OS\uCOS-II\probe_com_os.c><probe_com_os.c> 
+OPTFFF 10,73,1,0,0,0,0,0,<..\..\..\..\..\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STM32\probe_rs232c.c><probe_rs232c.c> 
+OPTFFF 10,74,5,0,0,0,0,0,<..\..\..\..\..\uC-Probe\Target\Communication\Generic\RS-232\Ports\ST\STM32\probe_rs232c.h><probe_rs232c.h> 
+OPTFFF 10,75,1,0,0,0,0,0,<..\..\..\..\..\uC-Probe\Target\Communication\Generic\RS-232\OS\uCOS-II\probe_rs232_os.c><probe_rs232_os.c> 
+OPTFFF 10,76,1,0,0,0,0,0,<..\..\..\..\..\uC-Probe\Target\Communication\Generic\RS-232\Source\probe_rs232.c><probe_rs232.c> 
+OPTFFF 10,77,5,0,0,0,0,0,<..\..\..\..\..\uC-Probe\Target\Communication\Generic\Source\probe_com.h><probe_com.h> 
+OPTFFF 11,78,2,0,0,0,0,0,<..\BSP\STM32_Flash.scat><STM32_Flash.scat> 
+OPTFFF 11,79,2,0,0,0,0,0,<..\BSP\STM32_RAM.scat><STM32_RAM.scat> 
+
+
+TARGOPT 1, (Flash)
+ ADSCLK=8000000
+  OPTTT 1,1,1,0
+  OPTHX 1,65535,0,0,0
+  OPTLX 79,66,8,<.\rvmdk\>
+  OPTOX 16
+  OPTLT 1,1,1,0,1,1,0,1,0,0,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 1,0,1
+  OPTAX 255
+  OPTDL (SARMCM3.DLL)()(DARMSTM.DLL)(-pSTM32F103VB)(SARMCM3.DLL)()(TARMSTM.DLL)(-pSTM32F103VB)
+  OPTDBG 48126,1,()()()()()()()()()() (BIN\UL2CM3.DLL)()()()
+  OPTKEY 0,(DLGTARM)((1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=-1,-1,-1,-1,0)(100=-1,-1,-1,-1,0)(110=-1,-1,-1,-1,0)(111=-1,-1,-1,-1,0)(1011=-1,-1,-1,-1,0)(180=-1,-1,-1,-1,0)(120=-1,-1,-1,-1,0)(121=-1,-1,-1,-1,0)(122=-1,-1,-1,-1,0)(123=-1,-1,-1,-1,0)(124=-1,-1,-1,-1,0)(140=-1,-1,-1,-1,0)(240=-1,-1,-1,-1,0)(190=-1,-1,-1,-1,0)(200=-1,-1,-1,-1,0)(170=-1,-1,-1,-1,0)(130=-1,-1,-1,-1,0)(131=-1,-1,-1,-1,0)(132=-1,-1,-1,-1,0)(133=-1,-1,-1,-1,0)(160=-1,-1,-1,-1,0)(161=-1,-1,-1,-1,0)(162=-1,-1,-1,-1,0)(210=-1,-1,-1,-1,0)(211=-1,-1,-1,-1,0)(220=-1,-1,-1,-1,0)(221=-1,-1,-1,-1,0)(230=-1,-1,-1,-1,0)(231=-1,-1,-1,-1,0)(232=-1,-1,-1,-1,0)(233=-1,-1,-1,-1,0)(150=-1,-1,-1,-1,0)(151=-1,-1,-1,-1,0))
+  OPTKEY 0,(ARMDBGFLAGS)()
+  OPTKEY 0,(DLGUARM)((105=-1,-1,-1,-1,0)(106=-1,-1,-1,-1,0)(107=-1,-1,-1,-1,0))
+  OPTKEY 0,(UL2CM3)(-UU0076R8E -O14 -S0 -C0 -N00("ARM CoreSight JTAG-DP") -D00(3BA00477) -L00(4) -N01("Unknown JTAG device") -D01(16410041) -L01(5) -TO18 -TC10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F10x_128 -FS08000000 -FL020000)
+  OPTDF 0x80
+  OPTLE <>
+  OPTLC <>
+EndOpt
+

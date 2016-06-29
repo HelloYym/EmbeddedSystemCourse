@@ -1,0 +1,204 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\APP\app.c)(0x574023A3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\app_1.o --omf_browse z:\cubemx\lab5_ucos\output\app_1.crf --depend z:\cubemx\lab5_ucos\output\app_1.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (.\RTE\RTE_Components.h)(0x573EF67A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\UCOS\ucos_ii.h)(0x486309CE)
+I (.\APP\app_cfg.h)(0x573F0431)
+I (.\APP\os_cfg.h)(0x573EFF42)
+I (.\CPU\os_cpu.h)(0x483F2548)
+I (.\DHT11\dht11.h)(0x573FF3EC)
+F (.\APP\app_cfg.h)(0x573F0431)()
+F (.\APP\includes.h)(0x573F02E9)()
+F (.\APP\os_cfg.h)(0x573EFF42)()
+F (.\DHT11\dht11.c)(0x574002E3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\dht11.o --omf_browse z:\cubemx\lab5_ucos\output\dht11.crf --depend z:\cubemx\lab5_ucos\output\dht11.d)
+I (DHT11\dht11.h)(0x573FF3EC)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (.\RTE\RTE_Components.h)(0x573EF67A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (.\DHT11\dht11.h)(0x573FF3EC)()
+F (.\BSP\bsp.h)(0x573F00F2)()
+F (.\BSP\BSP.c)(0x573EFFC9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\bsp.o --omf_browse z:\cubemx\lab5_ucos\output\bsp.crf --depend z:\cubemx\lab5_ucos\output\bsp.d)
+I (.\BSP\bsp.h)(0x573F00F2)
+I (.\CPU\cpu.h)(0x48BDC44E)
+I (.\CPU\cpu_def.h)(0x4897CFFA)
+I (.\LIB\lib_def.h)(0x487EE2C8)
+I (.\LIB\lib_mem.h)(0x48830C2C)
+I (.\APP\app_cfg.h)(0x573F0431)
+I (.\LIB\lib_str.h)(0x4897B908)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\errno.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (.\RTE\RTE_Components.h)(0x573EF67A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\UCOS\ucos_ii.h)(0x486309CE)
+I (.\APP\os_cfg.h)(0x573EFF42)
+I (.\CPU\os_cpu.h)(0x483F2548)
+F (.\LIB\lib_def.h)(0x487EE2C8)()
+F (.\LIB\lib_mem.c)(0x48830C2C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\lib_mem.o --omf_browse z:\cubemx\lab5_ucos\output\lib_mem.crf --depend z:\cubemx\lab5_ucos\output\lib_mem.d)
+I (.\LIB\lib_mem.h)(0x48830C2C)
+I (.\CPU\cpu.h)(0x48BDC44E)
+I (.\CPU\cpu_def.h)(0x4897CFFA)
+I (.\LIB\lib_def.h)(0x487EE2C8)
+I (.\APP\app_cfg.h)(0x573F0431)
+F (.\LIB\lib_mem.h)(0x48830C2C)()
+F (.\LIB\lib_str.c)(0x48645D80)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\lib_str.o --omf_browse z:\cubemx\lab5_ucos\output\lib_str.crf --depend z:\cubemx\lab5_ucos\output\lib_str.d)
+I (.\LIB\lib_str.h)(0x4897B908)
+I (.\CPU\cpu.h)(0x48BDC44E)
+I (.\CPU\cpu_def.h)(0x4897CFFA)
+I (.\LIB\lib_def.h)(0x487EE2C8)
+I (.\APP\app_cfg.h)(0x573F0431)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\errno.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+F (.\LIB\lib_str.h)(0x4897B908)()
+F (.\CPU\cpu.h)(0x48BDC44E)()
+F (.\CPU\cpu_a.asm)(0x48BDC944)(--cpu Cortex-M3 -g --apcs=interwork -I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc--pd "__UVISION_VERSION SETA 515" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\cpu_a.lst --xref -o z:\cubemx\lab5_ucos\output\cpu_a.o --depend z:\cubemx\lab5_ucos\output\cpu_a.d)
+F (.\CPU\cpu_c.c)(0x48BDC4FE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\cpu_c.o --omf_browse z:\cubemx\lab5_ucos\output\cpu_c.crf --depend z:\cubemx\lab5_ucos\output\cpu_c.d)
+I (.\CPU\cpu.h)(0x48BDC44E)
+I (.\CPU\cpu_def.h)(0x4897CFFA)
+I (.\LIB\lib_def.h)(0x487EE2C8)
+F (.\CPU\cpu_def.h)(0x4897CFFA)()
+F (.\CPU\os_cpu.h)(0x483F2548)()
+F (.\CPU\os_cpu_a.asm)(0x48AE0D28)(--cpu Cortex-M3 -g --apcs=interwork -I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc--pd "__UVISION_VERSION SETA 515" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\os_cpu_a.lst --xref -o z:\cubemx\lab5_ucos\output\os_cpu_a.o --depend z:\cubemx\lab5_ucos\output\os_cpu_a.d)
+F (.\CPU\os_cpu_c.c)(0x483F2544)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\os_cpu_c.o --omf_browse z:\cubemx\lab5_ucos\output\os_cpu_c.crf --depend z:\cubemx\lab5_ucos\output\os_cpu_c.d)
+I (.\UCOS\ucos_ii.h)(0x486309CE)
+I (.\APP\app_cfg.h)(0x573F0431)
+I (.\APP\os_cfg.h)(0x573EFF42)
+I (.\CPU\os_cpu.h)(0x483F2548)
+F (.\CPU\os_dbg.c)(0x483F2546)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\os_dbg.o --omf_browse z:\cubemx\lab5_ucos\output\os_dbg.crf --depend z:\cubemx\lab5_ucos\output\os_dbg.d)
+I (.\UCOS\ucos_ii.h)(0x486309CE)
+I (.\APP\app_cfg.h)(0x573F0431)
+I (.\APP\os_cfg.h)(0x573EFF42)
+I (.\CPU\os_cpu.h)(0x483F2548)
+F (.\UCOS\os_core.c)(0x486309CE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\os_core.o --omf_browse z:\cubemx\lab5_ucos\output\os_core.crf --depend z:\cubemx\lab5_ucos\output\os_core.d)
+I (.\UCOS\ucos_ii.h)(0x486309CE)
+I (.\APP\app_cfg.h)(0x573F0431)
+I (.\APP\os_cfg.h)(0x573EFF42)
+I (.\CPU\os_cpu.h)(0x483F2548)
+F (.\UCOS\os_flag.c)(0x486309CE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\os_flag.o --omf_browse z:\cubemx\lab5_ucos\output\os_flag.crf --depend z:\cubemx\lab5_ucos\output\os_flag.d)
+I (.\UCOS\ucos_ii.h)(0x486309CE)
+I (.\APP\app_cfg.h)(0x573F0431)
+I (.\APP\os_cfg.h)(0x573EFF42)
+I (.\CPU\os_cpu.h)(0x483F2548)
+F (.\UCOS\os_mbox.c)(0x486309CE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\os_mbox.o --omf_browse z:\cubemx\lab5_ucos\output\os_mbox.crf --depend z:\cubemx\lab5_ucos\output\os_mbox.d)
+I (.\UCOS\ucos_ii.h)(0x486309CE)
+I (.\APP\app_cfg.h)(0x573F0431)
+I (.\APP\os_cfg.h)(0x573EFF42)
+I (.\CPU\os_cpu.h)(0x483F2548)
+F (.\UCOS\os_mem.c)(0x486309CE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\os_mem.o --omf_browse z:\cubemx\lab5_ucos\output\os_mem.crf --depend z:\cubemx\lab5_ucos\output\os_mem.d)
+I (.\UCOS\ucos_ii.h)(0x486309CE)
+I (.\APP\app_cfg.h)(0x573F0431)
+I (.\APP\os_cfg.h)(0x573EFF42)
+I (.\CPU\os_cpu.h)(0x483F2548)
+F (.\UCOS\os_mutex.c)(0x486309CE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\os_mutex.o --omf_browse z:\cubemx\lab5_ucos\output\os_mutex.crf --depend z:\cubemx\lab5_ucos\output\os_mutex.d)
+I (.\UCOS\ucos_ii.h)(0x486309CE)
+I (.\APP\app_cfg.h)(0x573F0431)
+I (.\APP\os_cfg.h)(0x573EFF42)
+I (.\CPU\os_cpu.h)(0x483F2548)
+F (.\UCOS\os_q.c)(0x486309CE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\os_q.o --omf_browse z:\cubemx\lab5_ucos\output\os_q.crf --depend z:\cubemx\lab5_ucos\output\os_q.d)
+I (.\UCOS\ucos_ii.h)(0x486309CE)
+I (.\APP\app_cfg.h)(0x573F0431)
+I (.\APP\os_cfg.h)(0x573EFF42)
+I (.\CPU\os_cpu.h)(0x483F2548)
+F (.\UCOS\os_sem.c)(0x486309CE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\os_sem.o --omf_browse z:\cubemx\lab5_ucos\output\os_sem.crf --depend z:\cubemx\lab5_ucos\output\os_sem.d)
+I (.\UCOS\ucos_ii.h)(0x486309CE)
+I (.\APP\app_cfg.h)(0x573F0431)
+I (.\APP\os_cfg.h)(0x573EFF42)
+I (.\CPU\os_cpu.h)(0x483F2548)
+F (.\UCOS\os_task.c)(0x486309CE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\os_task.o --omf_browse z:\cubemx\lab5_ucos\output\os_task.crf --depend z:\cubemx\lab5_ucos\output\os_task.d)
+I (.\UCOS\ucos_ii.h)(0x486309CE)
+I (.\APP\app_cfg.h)(0x573F0431)
+I (.\APP\os_cfg.h)(0x573EFF42)
+I (.\CPU\os_cpu.h)(0x483F2548)
+F (.\UCOS\os_time.c)(0x486309CE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\os_time.o --omf_browse z:\cubemx\lab5_ucos\output\os_time.crf --depend z:\cubemx\lab5_ucos\output\os_time.d)
+I (.\UCOS\ucos_ii.h)(0x486309CE)
+I (.\APP\app_cfg.h)(0x573F0431)
+I (.\APP\os_cfg.h)(0x573EFF42)
+I (.\CPU\os_cpu.h)(0x483F2548)
+F (.\UCOS\os_tmr.c)(0x486309CE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\os_tmr.o --omf_browse z:\cubemx\lab5_ucos\output\os_tmr.crf --depend z:\cubemx\lab5_ucos\output\os_tmr.d)
+I (.\UCOS\ucos_ii.h)(0x486309CE)
+I (.\APP\app_cfg.h)(0x573F0431)
+I (.\APP\os_cfg.h)(0x573EFF42)
+I (.\CPU\os_cpu.h)(0x483F2548)
+F (.\UCOS\ucos_ii.h)(0x486309CE)()
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\misc.c)(0x52F9EB20)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\misc.o --omf_browse z:\cubemx\lab5_ucos\output\misc.crf --depend z:\cubemx\lab5_ucos\output\misc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (.\RTE\RTE_Components.h)(0x573EF67A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x52F9EB20)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\stm32f10x_gpio.o --omf_browse z:\cubemx\lab5_ucos\output\stm32f10x_gpio.crf --depend z:\cubemx\lab5_ucos\output\stm32f10x_gpio.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (.\RTE\RTE_Components.h)(0x573EF67A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x52F9EB20)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\stm32f10x_rcc.o --omf_browse z:\cubemx\lab5_ucos\output\stm32f10x_rcc.crf --depend z:\cubemx\lab5_ucos\output\stm32f10x_rcc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (.\RTE\RTE_Components.h)(0x573EF67A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x5615ADFE)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x573F1286)(--cpu Cortex-M3 -g --apcs=interwork -I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc--pd "__UVISION_VERSION SETA 515" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o z:\cubemx\lab5_ucos\output\startup_stm32f10x_md.o --depend z:\cubemx\lab5_ucos\output\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)()
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x4F1E2E3C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\UCOS -I.\CPU -I.\APP -I.\RTE -I.\RTE\Device\STM32F103C8 -I.\LIB -I.\BSP -I.\DHT11-I \\Mac\Home\CubeMX\Lab5_ucos\RTE-I \\Mac\Home\CubeMX\Lab5_ucos\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o z:\cubemx\lab5_ucos\output\system_stm32f10x.o --omf_browse z:\cubemx\lab5_ucos\output\system_stm32f10x.crf --depend z:\cubemx\lab5_ucos\output\system_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (.\RTE\RTE_Components.h)(0x573EF67A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
